@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Ejercicio 001 - DEVF</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Esto es un comentario -->
+    <main>
+      <header>
+        <div aria-label="fotografiaPersonal" class="imagenHeader">
+        <img        src="https://devf-website.s3.amazonaws.com/static/assets/img/logo-devf-white.svg"
+        alt="Fotografia de josue"
+        title="Josue nahum rampas carrion">
+        </div>
+        <!--
+        <div class="centroHeader">
+        </div>-->
+        <div class="tituloHeader">
+          <h1>Mi Web Personal</h1>
+        </div>      
+      </header>    
+      <nav>
+        <a href="#" class="menuResponsive">Inicio</a>
+        <a href="#" class="menuResponsive">Descripcion</a>
+        <a href="#" class="menuResponsive">Contacto</a>
+        <a href="#" class="menuResponsive">Pie de Pagina</a>
+      </nav>
+      <section aria-label="datosPersonales" 
+        itemscope
+        itemtype="datosPersonales"
+        itemid="00000001">      
+        <div>
+            <h2>Hola!, Bienvenido</h2>
+            <p>Te saluda <span itemprop="nombre"> Josue nahum rampas carrion</span>, esta es mi web personal, espero que sea de tu agrado y que conozcas un poco más sobre mi.</p>
+            <br>
+        </div>    
+        <div>
+            <h2>Un poco sobre mi persona</h2>
+            <p itemprop="descripcion">Te saluda Josue nahum rampas carrionmante de la naturaleza, la tecnologia y las dificultades.</p>
+            <br>
+        <p><dt>Ocupacion: <dd><span itemprop="ocupacion">Egresado de ingenieria de sistemas e informatica, con miras a comenzar un emprendimiento de servicios de desarrollo web y de software</span></p>
+        <p><dt>Hobbies: <dd><span itemprop="hobbie">Amante de la naturaleza, la tecnologia y las dificultades</span></p>
+        </div>  
+      </section>
+
+      <aside>
+        <div aria-label="fotografiaPersonal" class="RecorteCircular">
+        <img        src="https://scontent.flim2-1.fna.fbcdn.net/v/t39.30808-6/237290461_1997584770406900_3965379796307189292_n.jpg?_nc_cat=110&_nc_rgb565=1&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHDaMaZghsfBmi1Rv1XC0p5toIrlKk8p0a2giuUqTynRqGz5LmH0Km1beCXkBUDPdzXQkjXDnH_Le8r1Ux9vwdo&_nc_ohc=bKb1enFhkN8AX-ZOgvX&_nc_ht=scontent.flim2-1.fna&oh=506a74dabf73534230f52eeee33ffd67&oe=61856344"
+        alt="Fotografia de josue"
+        title="Josue nahum rampas carrion">
+        </div>
+
+        <div itemprop="informacionDeContacto">
+        <p><dt>Contactos:<dd>
+          <span itemprop="Whatsapp"> 
+            <a title="Enviar Whatsapp a Josue nahum rampas carrion" href="https://api.whatsapp.com/send?phone=5146612989&text=Hola que tal?" target="_blank">
+            <img align="center" src="https://www.estanciabellohorizonte.com/wp-content/uploads/2016/04/Whatsapp_icon-icons.com_66931.png" alt="logoito" width=45>
+            </a>
+          </span>
+          <span itemprop="messenger">
+            <a title="Chatear con Josue nahum rampas carrion" href="https://www.facebook.com" target="_blank">
+            <img align="center" src="https://www.estanciabellohorizonte.com/wp-content/uploads/2016/04/messenger.png" alt="logoito" width=45>
+            </a>
+          </span>
+        </p>
+        </div>
+      </aside>
+      <div class="separacionFooter">
+        <!-- Esto es un comentario -->
+      </div>
+      <footer >
+           <h4>Redes sociales</h4>
+          <span>Desarrollado con</span> ❤️
+          <span>por <a href="https://www.facebook.com/"> Josue </a> - </span> 
+          <img align="center" src="https://www.estanciabellohorizonte.com/wp-content/uploads/2016/04/ccccccc.png" alt="logoito" width=45>
+      </footer>
+    </main>
+  </body>
+</html>
